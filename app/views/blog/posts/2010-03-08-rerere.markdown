@@ -53,7 +53,7 @@ Now let's see a simple example.  If we have a file that looks like this:
 and in one branch we change the word 'hello' to 'hola', then in another branch
 we change the 'world' to 'mundo'.
 
-<img src="/images/rerere1.png">
+<img src="https://github.com/PackardChan/git-scm.com/blob/blog-revive/public/images/rerere1.png">
 
 When we merge the two branches together, we'll get a merge conflict:
 
@@ -142,7 +142,7 @@ Now we can mark it as resolved and commit it:
 
 You can see that it "Recorded resolution for FILE".
 
-<img src="/images/rerere2.png">
+<img src="https://github.com/PackardChan/git-scm.com/blob/blog-revive/public/images/rerere2.png">
 
 Now, let's undo
 that merge and then rebase it on top of our master branch instead.
@@ -192,7 +192,7 @@ Also, `git diff` will show you how it was automatically re-resolved:
 	++  puts 'hola mundo'
 	  end
 
-<img src="/images/rerere3.png">
+<img src="https://github.com/PackardChan/git-scm.com/blob/blog-revive/public/images/rerere3.png">
 
 You can also recreate the conflicted file state with the `checkout` command:
 
